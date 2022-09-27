@@ -1,5 +1,3 @@
-/* COP 3502C Assignment 2
- This program is written by: Hong Thy Nguyen*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -68,8 +66,6 @@ int main() {
                     queueIndex = getNext(myQueue, &currTime);
 
                     customer* tmpNode = dequeue(&myQueue[queueIndex]);
-
-                    // So we type less...
                     customer* tmpPtr = tmpNode;
 
                     // Update starting time, if necessary.
