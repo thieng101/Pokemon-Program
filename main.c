@@ -1,6 +1,3 @@
-/*COP 3502 C Assignment 1
-This program is written by: Hong Thy Nguyen*/
-
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
